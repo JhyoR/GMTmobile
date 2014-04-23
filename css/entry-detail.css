@@ -1,0 +1,360 @@
+body {
+  background-color: #ffffff;
+  font: 400 0.875em/1.38 Helvetica;
+  color: rgb(131, 131, 131);
+}
+
+.billable {
+  color: rgb(12, 133, 232);
+}
+
+.head {
+  position: relative;
+  float: left;
+  z-index: 8;
+  width: 99.9999999999%;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border: 1px solid rgb(210, 210, 210);
+  background-color: rgb(255, 255, 255);
+}
+
+.head .text {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  width: 82px;
+  height: 19px;
+  min-height: 19px;
+  margin: auto;
+  font-size: 0.929em;
+  color: rgb(167, 167, 167);
+}
+
+.info {
+  position: relative;
+  float: left;
+  width: 100%;
+}
+
+.info .text {
+  float: left;
+  margin-left: 5%;
+}
+
+.infos {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: rgb(255, 255, 255);
+}
+
+.logo {
+  display: block;
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin: 7px 0 0 8px;
+  background-image: url('../images/Imported%20Layers%20copy.png');
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center center;
+}
+
+.mainnav {
+  display: block;
+  float: right;
+  width: 30px;
+  height: 30px;
+  margin: 7px 8px 0 0;
+  background-image: url('../images/Oval%2022.png');
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center center;
+}
+
+.non-billable {
+  color: rgb(136, 120, 120);
+}
+
+.subnav {
+  position: relative;
+  width: 100%;
+  height: 45px;
+  margin: 46px auto 0;
+  border-bottom: 1px solid rgb(159, 219, 240);
+  background-color: #b9e7f7;
+}
+
+.subnav .text {
+  float: left;
+  min-height: 21px;
+  margin: 12px 0 0 8px;
+  font-size: 1.071em;
+  color: rgb(94, 169, 187);
+}
+
+.text {
+  font-weight: 400;
+  line-height: 1.38;
+}
+
+.time {
+  display: block;
+  width: 18.8741721854%;
+  height: 19px;
+  margin: 0 auto;
+  padding: 0 10px;
+  background-color: rgb(185, 231, 247);
+  font-size: 0.929em;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+}
+
+.timecell {
+  position: relative;
+  float: left;
+  clear: both;
+  width: 99.9999999999%;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-right: 1px solid rgb(157, 209, 227);
+  border-bottom: 1px solid rgb(157, 209, 227);
+  border-left: 1px solid rgb(157, 209, 227);
+  background-color: rgb(185, 231, 247);
+}
+
+.timerows {
+  width: 95%;
+  margin: 17px auto 0;
+}
+
+.info-2,
+.info-3,
+.unfilled {
+  clear: both;
+  margin-top: 17px;
+}
+
+._button {
+  display: block;
+  position: absolute;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 3px;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+}
+
+._element {
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center center;
+}
+
+.head ._element {
+  display: block;
+  width: 5.9602649006%;
+  height: 18px;
+}
+
+.info ._button {
+  top: 0;
+  bottom: 0;
+  right: 5%;
+  height: 22px;
+  margin: auto 0;
+  padding: 2px 4px;
+  border-color: rgb(97, 164, 197);
+  font-size: 0.857em;
+  color: rgb(91, 158, 173);
+}
+
+.subnav ._container {
+  display: block;
+  height: 45px;
+}
+
+.subnav ._element {
+  float: left;
+  width: 21px;
+  height: 21px;
+  margin-top: 11px;
+}
+
+.timecell ._button {
+  top: 4px;
+  right: 0.9985513245%;
+  z-index: 1;
+  padding-right: 8px;
+  padding-left: 8px;
+  border-color: rgb(77, 127, 145);
+  background-color: rgb(96, 154, 175);
+  font-size: 0.714em;
+  color: rgb(255, 255, 255);
+}
+
+.unfilled ._button {
+  z-index: 24;
+}
+
+.text-1 {
+  display: inline-block;
+  float: left;
+  margin: 14px 0 0 8px;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.24);
+  font-size: 1em;
+  color: rgb(255, 255, 255);
+}
+
+.text-10 {
+  position: relative;
+  clear: both;
+  z-index: 18;
+  width: 90%;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  border-bottom: 1px dashed rgb(208, 208, 208);
+  font-size: 1em;
+  color: rgb(131, 131, 131);
+}
+
+.text-11,
+.text-5,
+.text-7,
+.text-9 {
+  display: inline-block;
+  font-size: 0.857em;
+  color: rgb(233, 233, 233);
+}
+
+.text-12 {
+  position: relative;
+  clear: both;
+  z-index: 22;
+  width: 90%;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  border-bottom: 1px dashed rgb(208, 208, 208);
+  font-size: 1em;
+  color: rgb(131, 131, 131);
+}
+
+.text-2 {
+  display: inline-block;
+}
+
+.text-6 {
+  position: relative;
+  clear: both;
+  z-index: 10;
+  width: 90%;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  border-bottom: 1px dashed rgb(208, 208, 208);
+  font-size: 1em;
+  color: rgb(131, 131, 131);
+}
+
+.text-8 {
+  position: relative;
+  clear: both;
+  z-index: 14;
+  width: 90%;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  border-bottom: 1px dashed rgb(208, 208, 208);
+  font-size: 1em;
+  color: rgb(131, 131, 131);
+}
+
+.timecell-1 {
+  z-index: 4;
+  margin-top: -1px;
+  border-top: 1px solid rgb(157, 209, 227);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04) inset;
+}
+
+.timecell-2 {
+  box-shadow: 0 2px 0 rgba(172, 222, 240, 0.45), 0 1px 3px rgba(0, 0, 0, 0.04) inset;
+}
+
+._container-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 40;
+  width: 100%;
+  height: 46px;
+  margin: 0 auto;
+  border-bottom: 1px solid rgb(5, 108, 147);
+  background-image: -webkit-linear-gradient(270deg, #00a7e6 0%, #007baa 100%);
+  background-image:    -moz-linear-gradient(270deg, #00a7e6 0%, #007baa 100%);
+  background-image:      -o-linear-gradient(270deg, #00a7e6 0%, #007baa 100%);
+  background-image:     -ms-linear-gradient(270deg, #00a7e6 0%, #007baa 100%);
+  background-image:         linear-gradient(180deg, #00a7e6 0%, #007baa 100%);
+}
+
+.head ._element-4 {
+  float: left;
+  margin-left: 4px;
+  background-image: url('../images/Triangle%202.png');
+}
+
+.head ._element-5 {
+  float: right;
+  margin-right: 4px;
+  background-image: url('../images/Triangle%201%20copy%202.png');
+}
+
+.info ._button-1 {
+  z-index: 12;
+}
+
+.info ._button-2 {
+  z-index: 16;
+}
+
+.info ._button-3 {
+  z-index: 20;
+}
+
+.subnav ._container-2 {
+  float: left;
+  width: 104px;
+  padding-left: 13px;
+}
+
+.subnav ._container-3 {
+  position: absolute;
+  top: 0;
+  left: 37.1875%;
+  z-index: 32;
+  width: 96px;
+  padding-left: 9px;
+}
+
+.subnav ._container-4 {
+  float: right;
+  width: 96px;
+  padding-left: 9px;
+}
+
+.subnav ._element-1 {
+  background-image: url('../images/Oval%2010%20+%20Rectangle%2049.png');
+}
+
+.subnav ._element-2 {
+  background-image: url('../images/Oval%2010%20+%20Rectangle%2048%20copy.png');
+}
+
+.subnav ._element-3 {
+  background-image: url('../images/Oval%2010%20+%20Rectangle%2048%20copy%202.png');
+}

@@ -1,5 +1,5 @@
 body {
-  background-color: #fafafa;
+  background-color: #ffffff;
   font: 400 0.813em/1.38 Helvetica;
   color: rgb(131, 131, 131);
 }
@@ -54,7 +54,7 @@ body {
   width: 30px;
   height: 30px;
   margin: 7px 8px 0 0;
-  background-image: url('../images/Rectangle%2037.png');
+  background-image: url('../images/Oval%2022.png');
   background-repeat: no-repeat;
   background-size: auto auto;
   background-position: center center;
